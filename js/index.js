@@ -13,7 +13,7 @@ ageElement.textContent = age;
 
 // create css classes for is good/not
 // show the right word/class styles on the screen depending
-const isGood = true;
+const isGood = good;
 const goodClass = isGood ? 'good' : 'not-good';
 const isGoodElement = document.getElementById('is-good');
 isGoodElement.textContent = isGood;
